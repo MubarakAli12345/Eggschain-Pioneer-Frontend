@@ -1,0 +1,13 @@
+{
+  "hosting":[ {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "target": "pioneerPortal",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }]
+}
